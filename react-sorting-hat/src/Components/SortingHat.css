@@ -4,4 +4,43 @@
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.quiz_container {
+    background-color:  rgb(241, 231, 231, .7);
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.questionCount {
+    font-size: 24px;
+}
+
+#counters {
+    font-weight: bold;
+}
+
+.question {
+    font-size: 48px;
+}
+li {
+    list-style-type: none;
+    margin: 20px;
+    font-size: 32px;
+}
+
+li input {
+    margin: 10px;
+    vertical-align: middle;
 }

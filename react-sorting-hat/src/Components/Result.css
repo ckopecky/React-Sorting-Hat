@@ -1,0 +1,34 @@
+.results-container {
+    background-image: url("../images/sortinghat.jpg");
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.results-container-crest {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border: 1px solid white;
+    background-color:  rgba(20, 16, 16, 0.7);
+    height: 95vh;
+}
+.house-crest {
+    margin: 50px;
+    height: 500px;
+}
+
+.sorted {
+    font-size: 48px;
+    color: ivory;
+    margin: 20px;
+}
+.sorted span {
+    font-family: "Mystery Quest";
+    font-size: 64px;
+    color: rgb(205, 205, 192);
+}
