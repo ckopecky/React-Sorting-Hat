@@ -37,7 +37,7 @@ class App extends Component {
     this.setState(() => ({
       answersCount: {
         ...this.state.answersCount,
-        [answer]: this.state.answersCount[answer] + 1 || 1
+        [answer]: this.state.answersCount[answer] + 1
       },
       answer: answer
     }));
@@ -118,3 +118,8 @@ class App extends Component {
 }
 
 export default App;
+
+// Stuff to do:
+// 1. Bug when three houses equal the same count
+// 2. Deploy
+// 3. Portfolio Ready? 
