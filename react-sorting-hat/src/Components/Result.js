@@ -20,9 +20,9 @@ const Result = props => {
     } 
     else if(props.quizResult ==="Slytherin") {
         return (
-            <div>
-                <img src={Slytherin}alt="Slytherin"/>
-                <div>
+            <div className="results-container-crest">
+                <img className="house-crest" src={Slytherin}alt="Slytherin"/>
+                <div className="sorted">
                     You've been sorted into <span>{props.quizResult}</span>
                 </div>
             </div>
@@ -30,9 +30,9 @@ const Result = props => {
     }
     else if(props.quizResult ==="Ravenclaw") {
         return (
-            <div>
-                <img src={Ravenclaw}alt="Ravenclaw"/>
-                <div>
+            <div className="results-container-crest">
+                <img className = "house-crest" src={Ravenclaw}alt="Ravenclaw"/>
+                <div className="sorted">
                     You've been sorted into <span>{props.quizResult}</span>
                 </div>
             </div>
@@ -41,9 +41,9 @@ const Result = props => {
     else {
 
         return (
-            <div>
-                <img src={Hufflepuff}alt="Hufflepuff"/>
-                <div>
+            <div className="results-container-crest">
+                <img className="house-crest" src={Hufflepuff}alt="Hufflepuff"/>
+                <div className="sorted">
                     You've been sorted into <span>{props.quizResult}</span>
                 </div>
             </div>

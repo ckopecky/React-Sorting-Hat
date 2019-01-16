@@ -78,10 +78,12 @@ class App extends Component {
   }
 
   setResults (result) {
+    console.log(result);
     if (result.length === 1) {
       this.setState({ result: result[0] });
     } else {
-      this.setState({ result: result[Math.random * result.length] });
+      let random = result[Math.floor(Math.random() * result.length)]
+      this.setState({ result: random});
     }
   }
 
