@@ -12,7 +12,7 @@
 
 }
 .header-contents {
-    background-color:  rgb(241, 231, 231, .7);
+    background-color:  rgba(241, 231, 231, .7);
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -21,13 +21,14 @@
     font-family: "Mystery Quest";
     color:rgb(12, 25, 25);
     opacity: 1.0 !important;
-    font-size: 6.6rem;
+    font-size: 3.4rem;
     display: flex;
     align-self: center;
+    margin:20px;
 }
 #introduction_to_hogwarts {
     font-family: 'Roboto';
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     width: 75%;
     font-style: italic;
     display: flex;
@@ -38,7 +39,7 @@
 #sort_me {
     display:flex;
     align-self: flex-end;
-    width: 40%; 
+    width: 90%; 
     height: 50px;
     margin: 20px;
     background-color: brown; 
