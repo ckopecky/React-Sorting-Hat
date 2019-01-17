@@ -1,46 +1,126 @@
-.sorting_hat_container {
-    background-image: url("../images/greathall.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 491px) {
+    .sorting_hat_container {
+        background-image: url("../images/greathall.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        
+
+    }
+    .quiz_container {
+        background-color:  rgba(241, 231, 231, .7);
+        background-attachment: fixed;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        
+    }
+
+    .questionCount {
+        font-size: 1.4em;
+        font-family: "Mystery Quest";
+    }
+
+    .question {
+        font-size: 1.6em;
+        font-family: "Roboto";
+        text-align: center;
+        font-weight: bolder;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    li {
+        list-style-type: none;
+        margin: 20px;
+        font-size: 1.6em;
+        display: flex;
+        width: 70%;
+        background: grey;
+        padding: 10px;
+    }
+
+    li input {
+        margin: 10px;
+        vertical-align: middle;
+        align-self: flex-start;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 490px){
+    .sorting_hat_container {
+        background-image: url("../images/greathall.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        
     
-
-}
-.quiz_container {
-    background-color:  rgba(241, 231, 231, .7);
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+    }
+    .quiz_container {
+        background-color:  rgba(241, 231, 231, .7);
+        background-attachment: fixed;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
     
-}
+    .questionCount {
+        font-size: 1.4em;
+        font-family: "Mystery Quest"
+    }
+    
+    #counters {
+        font-weight: bold;
+    }
+    
+    .question {
+        font-size: 1.6em;;
+        text-align: center;
+    }
 
-.questionCount {
-    font-size: 24px;
-}
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px;
 
-#counters {
-    font-weight: bold;
-}
 
-.question {
-    font-size: 48px;
-}
-li {
-    list-style-type: none;
-    margin: 20px;
-    font-size: 32px;
-}
+    }
+    li {
+        list-style-type: none;
+        margin: 20px;
+        font-size: 1.6em;
+        display: flex;
+        width: 70%;
+        background: grey;
+        padding: 10px;
+    }
+    
+    li input {
+        margin: 10px;
+        vertical-align: middle;
+        align-self: flex-start;
+    }
 
-li input {
-    margin: 10px;
-    vertical-align: middle;
 }

@@ -1,55 +1,114 @@
-.header_container {
-    background-image: url("../images/hogwarts.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+@media (min-width: 491px)  {
 
-}
-.header-contents {
-    background-color:  rgba(241, 231, 231, .7);
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#welcome {
-    font-family: "Mystery Quest";
-    color:rgb(12, 25, 25);
-    font-size: 2.4em;
-    display: flex;
-    align-self: center;
-    margin:20px;
-    text-align:center;
-}
-#introduction_to_hogwarts {
-    font-family: 'Roboto';
-    font-size: 1.6em;
-    width: 75%;
-    font-style: italic;
-    display: flex;
-    align-self:center;
-    text-align: center;
-}
 
-#sort_me {
-    display:flex;
-    width: 100%; 
-    height: auto;
-    padding: 20px;
-    margin: 20px;
-    background-color: brown; 
-    color: white;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 2px 2px 2px midnightblue;
-    font-family: "Mystery Quest";
-    font-size: 2rem;
+    .header_container {
+        background-image: url("../images/hogwarts.jpg");
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+    .header-contents {
+        background-color:  rgba(241, 231, 231, .7);
+        padding: 20px;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #welcome {
+        font-family: "Mystery Quest";
+        color:rgb(12, 25, 25);
+        font-size: 2.4em;
+        display: flex;
+        align-self: center;
+        margin:20px;
+        text-align:center;
+    }
+    #introduction_to_hogwarts {
+        font-family: 'Roboto';
+        font-size: 1.6em;
+        width: 75%;
+        font-style: italic;
+        display: flex;
+        align-self:center;
+        text-align: center;
+    }
+
+    #sort_me {
+        display:flex;
+        width: 90%; 
+        height: auto;
+        background-color: brown; 
+        color: white;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 2px midnightblue;
+        font-family: "Mystery Quest";
+        font-size: 2rem;
+    }
 }
+@media (min-width: 0px) and (max-width: 490px){
+    .header_container {
+        background-image: url("../images/hogwarts.jpg");
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    
+    }
+    .header-contents {
+        background-color:  rgba(241, 231, 231, .7);
+        width: 80%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #welcome {
+        font-family: "Mystery Quest";
+        color:rgb(12, 25, 25);
+        font-size: 2.4em;
+        display: flex;
+        align-self: center;
+        margin:20px;
+        text-align:center;
+    }
+    #introduction_to_hogwarts {
+        font-family: 'Roboto';
+        font-size: 1.2em;
+        width: 100%;
+        font-style: italic;
+        display: flex;
+        align-self:center;
+        text-align: center;
+    }
+    
+    #sort_me {
+        display:flex;
+        width: 90%; 
+        height: auto;
+        background-color: brown; 
+        margin: 20px;
+        padding: 20px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        box-shadow: 2px 2px 2px midnightblue;
+        font-family: "Mystery Quest";
+        font-size: 2rem;
+    }
+}    
