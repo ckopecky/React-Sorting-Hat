@@ -65,17 +65,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
-        height: auto;
         justify-content: center;
         align-items: flex-start;
         padding: 20px;
+        height: 150vh;
         
     
     }
     .quiz_container {
         background-color:  rgba(241, 231, 231, .7);
         background-attachment: fixed;
-        width: 80%;
+        width: auto;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
@@ -112,7 +112,7 @@
         margin: 20px;
         font-size: 1.6em;
         display: flex;
-        width: 70%;
+        width: 90%;
         background: grey;
         padding: 10px;
     }
