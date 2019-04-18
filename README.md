@@ -1,29 +1,31 @@
-# React Sorting Hat - Stretch Assignment
+# React Sorting Hat
 
-Welcome to Hogwarts, the School of Witchcraft and Wizardy. One of the tools that is used by students of Hogwarts on their first day entering the school is notoriously known as the `Sorting Hat`. Your goal throughout this stretch assignment is to build the `Sorting Hat` using ReactJS.
+### Deployment
+[The Great Hall Sorting Hat](https://thegreathall.herokuapp.com/)
 
-### Project Set Up
+Welcome to Hogwarts, the School of Witchcraft and Wizardy. One of the tools that is used by students of Hogwarts on their first day entering the school is notoriously known as the `Sorting Hat`. Create an application that will ask six questions and show what house the user has been sorted in! 
 
-- `cd` into `react-sorting-hat` directory and run `yarn install` to retrieve your dependancies.
-- run `yarn start` to spin up your `webpack development server`
-- Inside of `./react-sorting-hat/src` create a directory called `components` and start to think about all of the components you'll need for this application.
+#### Frontend Built Using:
 
-### Project description and requirements
+- [React.js]((https://reactjs.org/docs/getting-started.html)) and [React Router](https://www.npmjs.com/package/react-router-dom). Deployment using [Heroku](https://www.heroku.com/)
 
-- As a student stepping into the great hall at Hogwarts should be greeted with a message and I should be able to click a button that will initiate the sorting process.
-- I should then be asked a sequence of 6 questions that will determine to which of the 4 Hogwarts Houses I should belong.
-- When sorted, I should receive a message about which house I now belong in, that will include a history of the house and some unique facts about what type of people belong in the house.
+##### Using the Application
 
-  - The message page should be decorated to follow the house colors and crest.
-  - As a part of this message I should also be informed of any Famous Wizards that have come any gone through my house.
+Requirements: 
+- Node
+- Package Manager (such as Yarn or npm)
+    - [**Yarn**](https://yarnpkg.com/en/) was used to build this project.
 
-- Use [this guide](http://harrypotter.wikia.com/wiki/Hogwarts_Houses) to help craft your questions about the characteristics of each house.
-- In the event of a tie, simply randomize and select a house from the two options.
+Have Node? Have **Yarn** or **npm**?
+Follow these steps:
 
-### Stretch Problems
+1. Fork and clone repo
 
-- Redo this entire project using [VueJS](https://vuejs.org/).
-- Look into [Firebase](https://firebase.google.com/) for data persistence.
-  - Use Firebase to build out a Login System so that as a user I can login to the app and have all messages be directed at my name.
-  - All data tracked through the app should be stored in firebase.
-- Allow me (the user) the ability to share my hogwarts house decision to my social media platform of choice.
+2. Navigate to project root folder and `cd` into `react-sorting-hat` 
+
+3. Run `yarn install` to install the necessary node_modules. 
+
+6. Run `yarn start` to run the frontend on `localhost:3000`
+
+7. Your application is now running and can be tested locally. 
+
